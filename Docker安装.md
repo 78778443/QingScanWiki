@@ -41,3 +41,7 @@ https://github.com/78778443/QingScan
 ```
 cd QingScan/docker/20211014_01 && docker-compose up
 ```
+
+接下来通过浏览器去访问`http://host:8000/`
+
+![](images/20211206164654.png)
