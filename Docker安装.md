@@ -43,6 +43,8 @@ https://github.com/78778443/QingScan
 cd QingScan/docker/20211014_01 && docker-compose up
 ```
 
-接下来通过浏览器去访问`http://host:8000/`
+接下来通过浏览器去访问URL地址：`http://host:8000/` 
+
+用户名：`test1` 密    码：`123456`
 
 ![](images/20211206164654.png)
