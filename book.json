@@ -1,5 +1,13 @@
 {
     "plugins": [
-        "highlight"
-    ]
+        "highlight",
+        "copy-code",
+        "comment",
+        "image-zoom"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "auto_open": true
+        }
+    }
 }
