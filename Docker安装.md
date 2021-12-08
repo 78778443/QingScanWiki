@@ -41,7 +41,7 @@ https://github.com/78778443/QingScan
 ## 5. 拉去镜像并自动运行项目
 进入20211014_01目录下,拉取镜像并自动启动项目
 ```
-cd QingScan/docker/20211014_01 && docker-compose up
+cd QingScan/docker/20211014_01 && docker-compose up -d
 ```
 ## 6. 启动内置MySQL数据库
 ```
