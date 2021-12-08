@@ -15,6 +15,10 @@ curl -sSL https://get.daocloud.io/docker | sh
 ![](images/20211203153747.png)
 
 ## 2. 安装docker-compose
+众所周知的原因，国外的网站连接速度很慢。因此安装的时间可能会比较长，我们建议使用国内阿里云镜像
+```
+composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+```
 
 安装compose命令如下：
 ```
@@ -22,10 +26,7 @@ sudo curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.1/doc
 ```
 ![](images/20211203154742.png)
 
-众所周知的原因，国外的网站连接速度很慢。因此安装的时间可能会比较长，我们建议使用国内阿里云镜像
-```
-composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
-```
+
 
 ## 3. 添加可执行权限
 ```
@@ -42,7 +43,10 @@ https://github.com/78778443/QingScan
 ```
 cd QingScan/docker/20211014_01 && docker-compose up
 ```
-
+## 6. 启动内置MySQL数据库
+```
+docker exec qingscan sh -c 'service mysql start'
+```
 接下来通过浏览器去访问URL地址：`http://host:8000/` 
 
 用户名：`test1` 密    码：`123456`
