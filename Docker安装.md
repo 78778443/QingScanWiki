@@ -5,6 +5,9 @@
 
 [TOC]
 
+## 视频安装教程
+
+[QingScan视频安装教程](https://www.bilibili.com/video/BV1wP4y1G74V)
 
 
 ## 1. 安装docker
