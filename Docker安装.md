@@ -41,11 +41,16 @@ https://github.com/78778443/QingScan
 cd QingScan/docker/20211014_01 && docker-compose up -d
 ```
 ## 5. 启动内置MySQL数据库
+首次启动需要更新容器内代码
+```
+docker exec qingscan sh -c 'cd /root/qingscan && git fetch && git reset --hard origin/main'
+```
+
+启动内置MySQL数据库
 ```
 docker exec qingscan sh -c 'service mysql start'
 ```
 接下来通过浏览器去访问URL地址：`http://host:8000/` 
-
-用户名：`test1` 密    码：`123456`
+数据库账号：`qingscan` 密    码：`123`，不要填写以默认填写好。
 
 ![](images/20211206164654.png)
