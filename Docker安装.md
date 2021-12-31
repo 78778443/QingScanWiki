@@ -29,7 +29,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## 3. 下载QingScan代码
 ```
-git clone https://github.com/78778443/QingScan  
+git clone https://github.com/78778443/QingScan.git
 ```
 
 ## 4. 安装教程
@@ -40,7 +40,7 @@ cd QingScan/docker/latest  && docker-compose up -d
 
  <b>首次</b>启动需要更新容器内代码
 ```
-docker exec  qingscan sh -c 'cd /root/qingscan && git fetch && git reset --hard origin/develop && rm code/public/install/install.lock' 
+docker exec  qingscan sh -c 'cd /root/qingscan && git fetch && git reset --hard origin/main  && rm code/public/install/install.lock' 
 ```
 ## 5. 创建数据库
 依次执行命令创建MySQL数据库
