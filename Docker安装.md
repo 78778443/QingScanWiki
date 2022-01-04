@@ -69,3 +69,11 @@ CREATE DATABASE IF NOT EXISTS QingScan;
 > 2. AWVS 调用主要通过API，需要自己将API配置系统，配置管理中去
 
 ![](images/20211206164654.png)
+
+## 7. 远程协助
+
+QingScan尽最大能力保障各位安装的顺畅，但QingScan人力有限，目前仍然无法预料到每一处场景，希望您尽量按照视频教程中的环境来搭建；
+
+如果在安装的过程中遇到比较麻烦的问题，也可以联系我们的工程师远程协助帮你解决问题(需淘宝下单`2.88`元人民币),下单后主动添加群里`婷婷的橙子`为好友，并将向日葵的ID和验证码发给她。
+
+淘宝链接地址：[https://item.taobao.com/item.htm?spm=a2126o.success.0.0.5e484831UkSn6H&id=666295567386&mt=](https://item.taobao.com/item.htm?spm=a2126o.success.0.0.5e484831UkSn6H&id=666295567386&mt=)
