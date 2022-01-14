@@ -14,8 +14,4 @@
     * [黑盒项目](batch_import/黑盒项目.md)
 * [安装部署](安装部署.md)
     * [源码安装](源码安装.md)
-<<<<<<< Updated upstream
     * [升级安装](升级安装.md)
-=======
-    * [升级安装](升级安装.md)
->>>>>>> Stashed changes
